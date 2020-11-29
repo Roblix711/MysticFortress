@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\RazorDraw">
+      <UniqueIdentifier>{1a1dbdd2-0686-4286-bd12-c5a579bc65d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NovaX">
+      <UniqueIdentifier>{2cec3f42-f680-420b-8364-16bcfb22ad79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Binaries">
+      <UniqueIdentifier>{da774f70-861b-4aec-9952-86498d42d0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{7ab01d77-c33e-4223-a8ab-a6cb3e9c7470}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AppSnake.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Console.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\defines.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\DirectX.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Draw.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Engine.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Input.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\IOShell.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Path.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Razor.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Resource.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Scheduler.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\SEH.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\SysMetric.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RazorDraw\Window.h">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineXG4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MathExt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NovaX.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RazorDraw.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DX9MAT.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NovaX\Modular.h">
+      <Filter>Source Files\NovaX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NovaX\Nova.h">
+      <Filter>Source Files\NovaX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NovaX\Thread.h">
+      <Filter>Source Files\NovaX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NovaX\Timer.h">
+      <Filter>Source Files\NovaX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AppSnake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Console.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\DirectX.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Draw.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Engine.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Input.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\IOShell.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Path.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Resource.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Scheduler.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\SEH.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\SysMetric.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RazorDraw\Window.cpp">
+      <Filter>Source Files\RazorDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DX9MAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NovaX\Modular.cpp">
+      <Filter>Source Files\NovaX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NovaX\Thread.cpp">
+      <Filter>Source Files\NovaX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NovaX\Timer.cpp">
+      <Filter>Source Files\NovaX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="lib\libyse32.dll">
+      <Filter>Source Files\Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="lib\libyse64.dll">
+      <Filter>Source Files\Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="lib\opencv_world310.dll">
+      <Filter>Source Files\Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="lib\opencv_world310d.dll">
+      <Filter>Source Files\Binaries</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MysticFortress", "MysticFortress.vcxproj", "{CF312E9D-B7D6-4564-A327-A131D37767B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF312E9D-B7D6-4564-A327-A131D37767B1}.Debug|x64.ActiveCfg = Debug|x64
+		{CF312E9D-B7D6-4564-A327-A131D37767B1}.Debug|x64.Build.0 = Debug|x64
+		{CF312E9D-B7D6-4564-A327-A131D37767B1}.Release|x64.ActiveCfg = Release|x64
+		{CF312E9D-B7D6-4564-A327-A131D37767B1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E8F7AC8-77A1-4207-930C-0340C4B412F6}
+	EndGlobalSection
+EndGlobal
